@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="0.173">
+    <testcase classname="OrangeHrm Login" name="OrangeHrmLogin" time="0.015">
+        <system-out>
+            <![CDATA[Given User in OrangeHrm Home page...........................................passed
+When User login OrangeHrm application with Admin and admin..................passed
+Then OrangeHrm Dashboard page displayed "true"..............................passed
+And Profile page displayed "true"...........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="OrangeHrm Login" name="OrangeHrmLogin_2" time="0">
+        <system-out>
+            <![CDATA[Given User in OrangeHrm Home page...........................................passed
+When User login OrangeHrm application with Test@123 and Test................passed
+Then OrangeHrm Dashboard page displayed "true"..............................passed
+And Profile page displayed "true"...........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="OrangeHrm Login" name="OrangeHrmLogin_3" time="0.002">
+        <system-out>
+            <![CDATA[Given User in OrangeHrm Home page...........................................passed
+When User login OrangeHrm application with Admin and test123................passed
+Then OrangeHrm Dashboard page displayed "true"..............................passed
+And Profile page displayed "true"...........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="OrangeHrm Login" name="OrangeHrmLogin_4" time="0.004">
+        <system-out>
+            <![CDATA[Given User in OrangeHrm Home page...........................................passed
+When User login OrangeHrm application with Test and admin...................passed
+Then OrangeHrm Dashboard page displayed "true"..............................passed
+And Profile page displayed "true"...........................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
